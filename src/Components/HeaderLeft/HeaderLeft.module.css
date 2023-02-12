@@ -1,0 +1,31 @@
+.headerLeft{
+    padding-left: 5rem;
+    color: #555555;
+}
+
+
+h1{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 2.5rem;
+}
+
+h1>span{
+    color: #54C5F7;
+}
+
+.scrolled{
+    color:white;
+}
+
+@media only screen  and (max-width:700px){
+    .headerLeft{
+        padding-left:2rem;
+    }
+}
+
+
+@media only screen and (min-width:1400px){
+    .headerLeft{
+        padding-left: 8rem;
+    }    
+}

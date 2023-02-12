@@ -1,0 +1,47 @@
+.headerRight{
+    padding-right: 5rem;
+    justify-self: flex-end;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.links{
+    text-decoration: none;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 18px;
+    color: #555555;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.links:hover{
+    color: #54C5F7;
+    cursor: pointer;
+
+}
+
+.scrolled{
+    color: white;
+    
+}
+
+.scrolled:hover{
+    color:#555555;
+}
+
+@media only screen and (max-width:700px){
+    .headerRight{
+        padding-right:2rem;
+    }
+}
+
+@media only screen and (min-width:1400px){
+    .headerLeft{
+        padding-right: 12rem;
+    }    
+}

@@ -1,0 +1,36 @@
+.HeroSection{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    width: 100%;
+}
+
+.HeroPage{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+    margin-left: 5rem;
+    
+}
+
+@media only screen and (max-width:700px){
+    .HeroPage{
+        margin-left: 2rem; 
+        grid-template-columns: 100% 0;
+    }
+}
+
+@media only screen and (max-height:450px){
+    .HeroSection{
+        height: 450px;
+    }   
+}
+
+@media only screen and (min-width:1400px){
+    .HeroPage{
+        margin-left: 8rem;
+    
+    }    
+}
+

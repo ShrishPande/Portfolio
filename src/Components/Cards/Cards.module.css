@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+.cards{
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.cards>svg{
+    color: #54C5F7;
+    width: 80px;
+    height: 80px;
+    transition: all 0.3s ease;
+  
+
+}
+
+.cards>h2{
+    font-size: 30px;
+    transition: all 0.3s ease;
+   color: whitesmoke;
+
+}
+.cards>p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-family: 'Poppins',sans-sarif;
+    color: whitesmoke;
+}
+
+.cards:hover
+{
+    background-color: #54C5F7;
+}
+.cards:hover svg{
+
+    color: #555555;
+    font-size: larger;
+}
+.cards:hover p{
+    color: #555555;
+    font-size: larger;
+}
+.cards:hover h2{
+    font-size: 33px;
+}

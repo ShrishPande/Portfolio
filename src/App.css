@@ -1,0 +1,34 @@
+body{
+  margin:0;
+  padding:0;
+  background:url("./assets/cover.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;   
+}
+*{
+  font-family: 'ubuntu',sans-sarif;
+}
+
+.button{
+  background-color:#54C5F7;
+  color: #555555;
+  width: 7rem;
+  height: 2.7rem;
+  
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.menu-modal{
+  position: fixed;
+  width: 100%;
+  display: none;
+  z-index: 1000;
+}
+

@@ -1,0 +1,14 @@
+.HeroSectionRight{
+    height: 100%;
+    overflow:hidden;
+    position: relative;
+}
+.HeroSectionRight>img{
+
+    position: absolute;
+    top: 20px;
+    height: 100%;
+    width: 600px;
+    object-fit: cover;
+    
+}

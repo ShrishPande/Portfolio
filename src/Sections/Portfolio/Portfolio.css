@@ -1,0 +1,61 @@
+.portfolio{
+    background-color: whitesmoke;
+    color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-bottom: 7rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    overflow: hidden;
+}
+.portfolio .title{
+    padding-top: 4.8rem;
+    width: 100%;
+    text-align: center;
+}
+.portfolio .title>h2{
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.portfolio .title>h2::before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 260px;
+    height: 3px;
+    background: #111111;
+    transform: translateX(-50%);
+}
+
+.portfolio .title>h2::after{
+    content: "What I have made";
+    position: absolute;
+    bottom:-28px;
+    left: 50%;
+    font-size: 20px;
+    width: 180px;
+    color: #54C5F7;
+    padding: 0 5px;
+    background: whitesmoke;
+    transform: translateX(-50%);
+}
+.portfolio .swiper{
+    overflow:visible!important;
+}
+
+.portfolio-slider{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.portfolio-slider img{
+    width: 100%;
+    filter:drop-shadow(-12px 15px 13px rgba(0,0,0,0.23));
+    border-radius:19px;
+}

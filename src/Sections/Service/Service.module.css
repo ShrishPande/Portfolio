@@ -1,0 +1,72 @@
+.services{
+
+    background: whitesmoke;
+    color: #111111;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-bottom: 7rem;
+
+}
+
+.title{
+    padding-top: 4.8rem;
+    width: 100%;
+    text-align: center;
+}
+.title>h2{
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.title>h2::before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 240px;
+    height: 3px;
+    background: #111111;
+    transform: translateX(-50%);
+}
+
+.title>h2::after{
+    content: "What I provide ";
+    position: absolute;
+    bottom:-28px;
+    left: 50%;
+    font-size: 20px;
+    color: #54C5F7;
+    padding: 0 5px;
+    background: whitesmoke;
+    transform: translateX(-50%);
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.cards{
+    width: 32%;
+}
+
+@media only screen and (max-width:950px){
+    .content{
+        margin-left:2rem;
+        margin-right:2rem;
+    }
+    .cards{
+        width: 48%;
+    }
+}
+@media only screen and (max-width:650px){
+    .cards{
+        width: 100%;
+    }
+}
