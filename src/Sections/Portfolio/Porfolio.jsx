@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import kws from '../../assets/kws.png'
-import SharePrompt from '../../assets/SharePrompt.png'
+import SharePrompt from '../../assets/SharePrompts.png'
 import portfolio from '../../assets/portfolio.png'
 import 'swiper/css'
 
