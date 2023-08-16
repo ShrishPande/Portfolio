@@ -2,11 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import kws from '../../assets/kws.png'
+import SharePrompt from '../../assets/SharePrompt.png'
 import portfolio from '../../assets/portfolio.png'
 import 'swiper/css'
 
 const Porfolio = () => {
     const kwsRef=useRef();
+    const shareRef= useRef();
     const portfolioRef=useRef();
 
     const [widthSmall,setWidthSmall]=useState();
@@ -44,15 +46,15 @@ const Porfolio = () => {
         grabCursor={true}
         className='portfolio-slider'
         >
-            <SwiperSlide onClick={()=>kwsRef.current.click()}>
-                <img src={kws} alt=""/>
+            <SwiperSlide onClick={()=>shareRef.current.click()}>
+                <img src={SharePrompt} alt=""/>
             </SwiperSlide>
             <SwiperSlide onClick={()=>portfolioRef.current.click()}>
                 <img src={portfolio} alt="" />
             </SwiperSlide>
         </Swiper>
 
-                <a href="http://kwsmedia.netlify.app" ref={kwsRef} target="new"></a>
+                <a href="https://share-prompt-flame.vercel.app/" ref={shareRef} target="new"></a>
                 <a href="http://shrishpandey08.netlify.app" ref={portfolioRef} target="new"></a>
     </div>
   );

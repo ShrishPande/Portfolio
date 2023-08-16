@@ -72,6 +72,13 @@ const SkillSection = () => {
             </div>
             <div class={`${styles.line} ${styles.mern}`}></div>
           </div>
+          <div class={styles.bars}>
+            <div class={styles.info}>
+              <span>NextJS</span>
+              <span>40%</span>
+            </div>
+            <div class={`${styles.line} ${styles.mern}`}></div>
+          </div>
         </div>
       </div>
     </div>
