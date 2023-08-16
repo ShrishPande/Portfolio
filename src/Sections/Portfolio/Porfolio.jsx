@@ -55,7 +55,7 @@ const Porfolio = () => {
         </Swiper>
 
                 <a href="https://share-prompt-flame.vercel.app/" ref={shareRef} target="new"></a>
-                <a href="http://shrishpandey08.netlify.app" ref={portfolioRef} target="new"></a>
+                <a href="https://shrishpandey.vercel.app/" ref={portfolioRef} target="new"></a>
     </div>
   );
 };
