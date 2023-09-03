@@ -4,12 +4,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import kws from '../../assets/kws.png'
 import SharePrompt from '../../assets/SharePrompts.png'
 import portfolio from '../../assets/portfolio.png'
+import chatApp from '../../assets/chatApp.png'
 import 'swiper/css'
 
 const Porfolio = () => {
     const kwsRef=useRef();
     const shareRef= useRef();
     const portfolioRef=useRef();
+    const chatAppRef=useRef();
 
     const [widthSmall,setWidthSmall]=useState();
 
@@ -46,6 +48,9 @@ const Porfolio = () => {
         grabCursor={true}
         className='portfolio-slider'
         >
+            <SwiperSlide onClick={()=>chatAppRef.current.click()}>
+                <img src={chatApp} alt="" />
+            </SwiperSlide>
             <SwiperSlide onClick={()=>shareRef.current.click()}>
                 <img src={SharePrompt} alt=""/>
             </SwiperSlide>
@@ -54,6 +59,7 @@ const Porfolio = () => {
             </SwiperSlide>
         </Swiper>
 
+                <a href="https://shrish-pandey-chatapp.vercel.app/" ref={chatAppRef} target="new"></a>
                 <a href="https://share-prompt-flame.vercel.app/" ref={shareRef} target="new"></a>
                 <a href="https://shrishpandey.vercel.app/" ref={portfolioRef} target="new"></a>
     </div>
